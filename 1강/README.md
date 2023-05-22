@@ -64,3 +64,9 @@ const element = {
     }
 }
 ```
+
+## 1. JSX 사용방안
+리엑트 application에서 각 컴포넌트들을 import하는 방식으로 사용됨.
+
+리엑트의 메인 컴포넌트 (?) 는 src/index.js 가 됨.
+- [실제_예제_코드](./my-app/src/jsx/)
