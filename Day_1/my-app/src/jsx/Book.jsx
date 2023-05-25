@@ -9,5 +9,6 @@ function Book(props){
     );
 }
 
+
 // Book이라는 이름으로 컴포넌트 EXPORT
 export default Book;
