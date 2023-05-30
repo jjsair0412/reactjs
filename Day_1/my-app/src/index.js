@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Libray from './jsx/Libray';
 import Clock from './chapter_04/Clock';
 import CommentList from './chapter_05/Commentlist';
+import NotificationList from './chapter_06/NotificationList';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -24,9 +25,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //   );
 //   },1000);
 
+// root.render(
+//   <React.StrictMode>
+//     <CommentList />
+//   </React.StrictMode>
+// );
+
 root.render(
   <React.StrictMode>
-    <CommentList />
+    <NotificationList />
   </React.StrictMode>
 );
 
